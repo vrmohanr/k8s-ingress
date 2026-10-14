@@ -1,8 +1,5 @@
 # AWS Load Balancer Controller — Setup on EKS
 
-> Prerequisite: EKS cluster `roboshop` is running and `kubectl` / `eksctl` are pointed at it (region `us-east-1`).
-> This is the shared foundation — it's identical whether you expose apps with Ingress or Gateway API.
-
 ## 1. Associate the OIDC provider
 
 Lets the controller's ServiceAccount assume an IAM role (IRSA).
